@@ -59,7 +59,9 @@ header {
     border-radius: 6px;
     padding: 0.6rem;
 }
-
+.titulo-qr parrafo-qr{
+     color:#d0dbe7;
+}
 .mapa_descargable {
     background-color: #d0dbe7;
     color: #1f2937;
@@ -319,4 +321,5 @@ footer {
     .texto-footer{  
         font-size: 20px;
     }
+
 }
