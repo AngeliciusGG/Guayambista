@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    background-image: url(Imagenes/foto\ complejo\ desde\ la\ pasarela.jpeg);
+    background-image: url(Imagenes/Plaza-complejo-rio-guayamba/foto\ complejo\ desde\ la\ pasarela.jpeg);
     background-position: center;
     background-size: cover;
     padding: 8px;
@@ -59,14 +59,13 @@ header {
     border-radius: 6px;
     padding: 0.6rem;
 }
-.titulo-qr parrafo-qr{
-     color:#d0dbe7;
-}
+
 .mapa_descargable {
     background-color: #d0dbe7;
     color: #1f2937;
     border: solid 2px black;
     text-decoration: none;
+    font-weight: bold;
     border-radius: 6px;
     padding: 0.6rem;
     margin-top: 1rem;
@@ -77,6 +76,9 @@ header {
     border: solid 2px #7799b9;
     border-radius: 6px;
     margin-top: 1.1rem;
+    background-image: url(Imagenes/Plaza-complejo-rio-guayamba/Río\ Guayamba\,\ vista\ desde\ la\ pasarela\ hacia\ el\ río.jpg);
+    background-size: cover;
+    height: 500px;
 }
 
 .pdf-mapa {
@@ -87,14 +89,45 @@ header {
     margin-bottom: 1rem;
 }
 
-.titulo-referencia-mapa {
+.referencia-mapa {
     background-color: #7799b9;
     border-radius: 6px;
 }
 
-.texto-referencia-mapa {
-    color: #d0dbe7;
+.texto-referencia-mapa p {
+    background-color: #7799b9;
+    border-radius: 6px;
+    color: #1f2937;
+    margin: 0.8rem;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.9rem;
+
 }
+
+.texto-referencia-mapa p {
+    margin: 6px;
+}
+
+.titulo-mapa {
+    color: black;
+    background-color: #7799b9;
+    font-size: 1.4rem;
+    border-radius: 6px;
+}
+
+.parrafo-qr,
+.titulo-qr {
+    font-size: 18px;
+    font-weight: bold;
+    /* color: #d0dbe7; */
+    background-color: #7799b9;
+    color: black;
+    border-radius: 6px;
+    display: inline-block;
+    width: 55%;
+}
+
 
 a:hover {
     background-color: #1f2937;
@@ -108,14 +141,20 @@ a:hover {
 .presentacion-titulo-y-subtitulo {
     text-align: center;
     color: white;
+    /* background-image: url(Imagenes/Plaza-complejo-rio-guayamba/Río\ Guayamba\,\ vista\ desde\ la\ pasarela\ hacia\ el\ río.jpg); */
+    background-size: cover;
 }
 
+/* .descripcion-titulo{
+    color: black;
+} */
 .presentacion-titulo-y-subtitulo h3 {
     color: white;
 }
 
 .presentacion-titulo {
     padding: 1rem;
+    /* color: black; */
 }
 
 /* qr y mapa descargable*/
@@ -129,7 +168,7 @@ a:hover {
     border-radius: 6px;
 }
 
-.division-de-zonas div{
+.division-de-zonas div {
     background-color: #36454F;
     /* border: solid 2px black; */
     border-radius: 6 px;
@@ -150,12 +189,12 @@ a:hover {
 }
 
 .turismo-info-productos-historia h3 {
-    color: black;
+    color: #d0dbe7;
     padding: 6px;
 }
 
 .img-referencia {
-    max-width: 40%;
+    max-width: 80%;
     border-radius: 10px;
     text-align: center;
     display: block;
@@ -163,11 +202,11 @@ a:hover {
 }
 
 .texto-referencia {
-    color: black;
+    color: #d0dbe7;
     font-style: italic;
     font-size: 1.33rem;
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .titulo-referencia {
@@ -221,19 +260,20 @@ a:hover {
 }
 
 .tipo-de-servicio p {
-    color: white;
+    color: #d0dbe7;
 }
 
 /* estilo para el footer
  */
 footer {
     background-color: #2c3c4e;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     color: black;
     display: flex;
-    background-image: url(Imagenes/La\ olla.jpg);
+    background-image: url(Imagenes/img-zonas-turisticas/La\ olla.jpg);
     background-position: center;
     background-size: cover;
+
 }
 
 .img_footer {
@@ -249,10 +289,12 @@ footer {
         max-width: 90%;
         margin: 0 auto;
     }
-    .presentacion-titulo{
+
+    .presentacion-titulo {
         font-size: 1.8rem;
     }
-    .descripcion-titulo{
+
+    .descripcion-titulo {
         font-size: 1.5rem;
     }
 
@@ -263,63 +305,101 @@ footer {
         align-items: center;
         width: 80%;
     }
-    .titulo-referencia-mapa{
-      display: block;
-      width:60%;
-      margin: 0 auto;
-    }
-    .titulo-referencia{
+
+    .referencia-mapa {
         display: block;
-        width:75%;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .titulo-referencia {
+        display: block;
+        width: 75%;
         margin: 0 auto;
         border-radius: 6px;
-        padding-top:8px;
+        padding-top: 8px;
     }
-   /*  .referencia-imagen-texto{
+
+    /*  .referencia-imagen-texto{
         display: flex;
         flex-wrap:wrap;
     } */
     .texto-referencia {
         padding: 10px;
     }
+
     /* Estilo zonas de interés */
+    .referencia {
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .contenedor-de-descripcion {
+
+        flex: 1 1 250px;
+    }
+
+    .img-referencia {
+        min-width: 250px;
+    }
+
+    /* Estilo contenedor numeros telefónicos */
+
+    .presentacion-accesos-rapidos {
+        margin: 0 auto;
+        width: 96%;
+    }
+
+    .contenedor-servicios-prioritarios {
+        display: flex;
+    }
+
+    .servicios-prioritarios {
+        flex-grow: 1;
+    }
+
+    .tipo-de-servicio {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .servicios-prioritarios h5 {
+        font-size: 16px;
+    }
+
+    /* estios footer */
+    .titulo-footer {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .texto-footer {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    header {
+        width: 100%;
+
+    }
+        .division-de-zonas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .contenedor-referencia-de-zonas {
+        flex: basis 48%;
+        margin-bottom: 20px;
+        flex-grow: 0;
+    }
     .referencia{
         display: flex;
     }
     .contenedor-de-descripcion{
-        flex-grow: 1;
-        /* flex-shrink: 3; */
-        /* flex-basis: 350px; */
+        flex-direction:column ;
     }
-    .img-referencia{
-        min-width: 250px;
-    }
-    /* Estilo contenedor numeros telefónicos */
-
-    .presentacion-accesos-rapidos{
-        margin:0 auto;
-        width: 96%;
-    }
-    .contenedor-servicios-prioritarios{
-        display: flex;
-    }
-    .servicios-prioritarios{
-        flex-grow: 1;
-    }
-    .tipo-de-servicio{
-        font-size: 18px;
-        font-weight: bold;
-    }
-    .servicios-prioritarios h5{
-        font-size: 16px;
-    }
-    /* estios footer */
-    .titulo-footer{
-        font-size: 20px;
-        font-weight: bold;
-    }
-    .texto-footer{  
-        font-size: 20px;
-    }
-
 }
+
