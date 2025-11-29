@@ -1,485 +1,404 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>guayambista</title>
-    <link rel="stylesheet" href="guayamba.css">
-</head>
-
-<body>
-    <header>
-
-        <div>
-            <div class="logo-titulo-subtitulo">
-                <div>
-                    <img src="Imagenes/Logo black-bakcground.jpg" class="logo-header">
-                    <h1 class="tituloh1">Portal Turístico</h1>
-                    <p class="subtituloh1">Tu Pueblo - Toda la información en un lugar</p>
-                </div>
-            </div>
-            <!--                 <button>
-                    ☰
-                </button> -->
-        </div>
-
-    </header>
-
-    <!--     <div>
-        <div>
-            <a href="#inicio">🏠 Inicio</a>
-            <a href="#mapa">🗺️ Mapa Interactivo</a>
-            <a href="#turismo">🏞️ Turismo</a>
-            <a href="#servicios">🏪 Servicios</a>
-            <a href="#historia">📚 Historia</a>
-        </div>
-    </div> -->
-
-    <main>
-        <section id="seccion-principal">
-            <div class="presentacion">
-
-                <div class="presentacion-titulo-y-subtitulo">
-                    <h2 class="presentacion-titulo">¡Bienvenido a Nuestro Pueblo!</h2>
-                    <p class="descripcion-titulo">
-                        Descubre todo lo que nuestro hermoso pueblo tiene para ofrecerte. Desde lugares turísticos hasta
-                        servicios locales, aquí encontrarás toda la información que necesitas.
-                    </p>
-
-                </div>
-                <div class="qr-mapas-descargable">
-                    <div>
-                        <h3>📱 QR de la Página</h3>
-                        <div>
-                            <img class="codigo-qr" src="" alt="">
-                        </div>
-                        <p>Escanea para acceder desde tu móvil</p>
-                    </div>
-                    <div class="mapa-guayamba">
-                        <div class="pdf-mapa">
-                            <h3>🗺️ Mapa descargable</h3>
-                            <a download="" href="" class="mapa_descargable">
-                                📥 Descargar Mapa
-                            </a>
-                        </div>
-
-                        <div class="referencias-mapa">
-                            <h4 class="titulo-referencia-mapa">Referencias del mapa descargable</h4>
-                            <div class="texto-referencia-mapa">
-                                <p>Referencia 1</p>
-                                <p>Referencia 1</p>
-                                <p>Referencia 1</p>
-                            </div>
-
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--         <section>
-            <div>
-                <h3>📢 Anuncios del Pueblo</h3>
-                <div>
-                    <div>
-                        <h4>🎉 Festival de Verano</h4>
-                        <p>15-17 de Enero en la Plaza Principal</p>
-                    </div>
-                    <div>
-                        <h4>🚧 Obras en Calle Principal</h4>
-                        <p>Desvío por Av. San Martín hasta el 20/01</p>
-                    </div>
-                    <div>
-                        <h4>🏥 Campaña de Vacunación</h4>
-                        <p>Todos los martes en la Posta Sanitaria</p>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <section>
-            <!--             <div>
-                <h3>🗺️ Mapa Interactivo del Pueblo</h3>
-
-                <div>
-                    <div>🗺️</div>
-                    <p>Mapa Interactivo</p>
-                    <button>
-                        📥 Descargar Mapa Completo
-                    </button>
-                </div> -->
-
-            <div class="zonas-de-interes">
-
-
-                <div class="division-de-zonas">
-
-                    <h4 class="titulo-referencia">🏞️Zonas Turísticas</h4>
-
-                    <!-- estrcutura del contendedor de referencias
-
-                    <div class="contenedor-de-descripcion">
-                        
-                        
-
-                    </div>
-                    
-                    
-                    
-                    -->
-
-                    <div class="referencia">
-
-
-                        <div class="contenedor-de-descripcion">
-
-                            <p class="texto-referencia">Rio guayamba</p>
-
-                            <img class="img-referencia"
-                                src="Imagenes/img zonas turisticas/img vista desde pasarela al rio.jpeg">
-                        </div>
-
-                        <div class="contenedor-de-descripcion">
-
-                            <p class="texto-referencia">Pasarela Río Guayamba</p>
-
-                            <img src="Imagenes/img zonas turisticas/vista pasarela de noche.jpeg"
-                                class="img-referencia">
-
-                        </div>
-
-
-
-                    </div>
-
-
-
-                    <h4 class="titulo-referencia">🏨Hospedajes/ campings</h4>
-
-                    <div class="referencia">
-
-                        <div class="contenedor-de-descripcion">
-
-
-                            <p class="texto-referencia">Cabañas Angelo</p>
-
-                            <img src="Imagenes/img zonas turisticas/fot cabaña 1.webp" class="img-referencia">
-                            <!-- agregar imagenes como ejemplo de cada apartado para ver resultado al final del proyecto -->
-
-                        </div>
-                    </div>
-
-                    <h4 class="titulo-referencia">🏪Kioscos</h4>
-
-                    <div class="referencia">
-
-                        <div class="contenedor-de-descripcion">
-
-                            <p class="texto-referencia">kiosco Random</p>
-                            <img src="Imagenes/img zonas turisticas/kiosco.webp" class="img-referencia">
-
-                        </div>
-
-                    </div>
-
-                    <h4 class="titulo-referencia">Salud y Seguridad</h4>
-
-                    <div class="referencia">
-
-                        <div class="contenedor-de-descripcion">
-
-                            <p class="texto-referencia">Hospital seccional El Alto</p>
-                            <img src="Imagenes/img zonas turisticas/hospital.webp" class="img-referencia">
-
-                        </div>
-
-                        <div class="contenedor-de-descripcion">
-
-                            <p class="texto-referencia">Comisaria Guayamba</p>
-                            <img src="Imagenes/img zonas turisticas/comisaria Guayamba.webp" class="img-referencia">
-
-                        </div>
-                    </div>
-
-                    <h4 class="titulo-referencia">⛽Estación de Servicio</h4>
-
-                    <div class="referencia">
-
-                        <div class="contenedor-de-descripcion">
-                            <p class="texto-referencia">estación de servicio Guayamba</p>
-                            <img src="Imagenes/img zonas turisticas/ypf-estacion-premium-1.webp" class="img-referencia">
-                        </div>
-
-                    </div>
-
-                    <h4 class="titulo-referencia">🌳Plazas y Complejo Recreativo</h4>
-
-                    <div class="referencia">
-
-                        <div class="contenedor-de-descripcion">
-
-                            <p class="texto-referencia">plazoleta guayamba</p>
-
-                            <img src="Imagenes/img zonas turisticas/Plaza_Colón,_Barrio_Alberdi,_Córdoba,_Argentina.webp"
-                                class="img-referencia">
-
-                        </div>
-
-                    </div>
-                    <!--                     <div>
-                        <h4 class="titulo-referencia">👨‍🏫Guías de Turismo</h4>
-                    </div> -->
-                    <!--                      <div>
-                        <h4 class="titulo-referencia">🛍️ Productos Locales</h4>
-                    </div> -->
-                    <!--                      <div>
-                        <h4 class="titulo-referencia">📚 Historia y Curiosidades</h4>
-                    </div> -->
-
-
-
-                </div>
-        </section>
-
-        <!--         <div class="turismo-info-productos-historia">
-
-            <div class="actividades-servicios">
-
-                <div class="servicios">
-
-                    <div class="titulo-servicio">
-
-                        <div></div>
-                        <h3>👨‍🏫Guías de Turismo</h3>
-
-                    </div>
-
-                    <p>Conoce a nuestros guías locales expertos</p>
-
-                    <button>
-                        Guías Disponibles
-                    </button>
-
-                </div>
-            </div>
-
-            <div class="actividades-servicios">
-
-                <div class="servicios">
-
-                    <div class="titulo-servicio">
-
-
-                        <h3>🏞️ Zonas Turísticas</h3>
-
-                    </div>
-
-                    <p>Descubre los lugares más hermosos</p>
-
-                    <button>
-                        Explorar Lugares
-                    </button>
-
-                </div>
-            </div>
-
-            <div class="actividades-servicios">
-                <div class="servicios">
-                    <div class="titulo-servicio">
-                        <h3>🛍️ Productos Locales</h3>
-                    </div>
-                    <p>Artesanías y productos únicos del pueblo</p>
-                    <button>
-                        Ver Productos
-                    </button>
-                </div>
-            </div>
-
-            <div class="actividades-servicios">
-                <div class="servicios">
-                    <div class="titulo-servicio">
-                        <h3>📚 Historia y Curiosidades</h3>
-                    </div>
-                    <p>Conoce la rica historia de nuestro pueblo</p>
-                    <button>
-                        Leer Historia
-                    </button>
-                </div>
-            </div>
-
-            <div class="actividades-servicios">
-                <div class="servicios">
-
-                    <div class="titulo-servicio">
-                        <h3>🛡️ Información de Seguridad</h3>
-                    </div>
-                    <p>Números de emergencia y consejos útiles</p>
-                    <button>
-                        Ver Información
-                    </button>
-                </div> -->
-        </div>
-
-        <!--             <div>
-                <div>
-                    <div>📥</div>
-                    <h3>Mapa Descargable</h3>
-                    <p>Lleva el mapa contigo sin internet</p>
-                    <button>
-                        Descargar PDF
-                    </button>
-                </div>
-            </div> -->
-        </div>
-
-        <section id="accesos-rapidos">
-            <div class="numeros-servicios">
-                <h3 class="presentacion-accesos-rapidos">📞Contactos </h3>
-                <div class="contenedor-servicios-prioritarios">
-                    <div class="servicios-prioritarios">
-                        <div class="tipo-de-servicio">🚨Emergencias</div>
-                        <h5>Contacto Comisaría El Alto
-                        </h5>
-                        <p>3834...</p>
-                        <h5>Contacto comisaría Guayamba</h5>
-                        <p>3834...</p>
-                    </div>
-                    <div class="servicios-prioritarios">
-                        <div class="tipo-de-servicio">🏥 Salud</div>
-                        <h5>Contacto Hospital El Alto</h5>
-                        <p>3834...</p>
-                        <h5>Contacto Posta Sanitaria</h5>
-                        <p>3834...</p>
-                    </div>
-                    <!--   <button>
-                        <div>🚌</div>
-                        <div>Transporte</div>
-                    </button> -->
-                    <!--  <div class="servicios-prioritarios">
-                        <div>📞Contactos</div>
-                    </div> -->
-                </div>
-            </div>
-        </section>
-
-        <!-- <section>
-            <div>
-                <h3>💬 Comentarios y Opiniones</h3>
-                
-                <div>
-                    <div>
-                        <h4>Deja tu comentario</h4>
-                        <form>
-                            <div>
-                                <input type="text" placeholder="Tu nombre">
-                                <input type="email" placeholder="Tu email (opcional)">
-                            </div>
-                            <textarea placeholder="Escribe tu comentario aquí..." rows="4"></textarea>
-                            <div>
-                                <div>
-                                    <span>Calificación:</span>
-                                    <div>
-                                        <span>⭐</span>
-                                        <span>⭐</span>
-                                        <span>⭐</span>
-                                        <span>⭐</span>
-                                        <span>⭐</span>
-                                    </div>
-                                </div>
-                                <button type="submit">
-                                    📝 Enviar Comentario
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
-                <div>
-                    <div>
-                        <div>
-                            <div>M</div>
-                            <div>
-                                <h5>María González</h5>
-                                <div>
-                                    <div>⭐⭐⭐⭐⭐</div>
-                                    <span>Hace 2 días</span>
-                                </div>
-                            </div>
-                        </div>
-                        <p>¡Excelente página! Muy fácil de usar y encontré toda la información que necesitaba para mi visita al pueblo. Los mapas son súper útiles.</p>
-                    </div>
-
-                    <div>
-                        <div>
-                            <div>J</div>
-                            <div>
-                                <h5>Juan Pérez</h5>
-                                <div>
-                                    <div>⭐⭐⭐⭐</div>
-                                    <span>Hace 1 semana</span>
-                                </div>
-                            </div>
-                        </div>
-                        <p>Me encanta el diseño y lo completa que está la información. Sería genial si agregaran más fotos de los lugares turísticos.</p>
-                    </div>
-
-                    <div>
-                        <div>
-                            <div>A</div>
-                            <div>
-                                <h5>Ana Rodríguez</h5>
-                                <div>
-                                    <div>⭐⭐⭐⭐⭐</div>
-                                    <span>Hace 2 semanas</span>
-                                </div>
-                            </div>
-                        </div>
-                        <p>Perfecta para turistas como yo. El mapa descargable me salvó cuando no tenía señal. ¡Muy recomendada!</p>
-                    </div>
-                </div>
-
-                <div>
-                    <h4>📊 Calificaciones</h4>
-                    <div>
-                        <div>
-                            <div>4.7</div>
-                            <div>⭐⭐⭐⭐⭐</div>
-                            <p>Promedio General</p>
-                        </div>
-                        <div>
-                            <div>127</div>
-                            <div>💬</div>
-                            <p>Total Comentarios</p>
-                        </div>
-                        <div>
-                            <div>94%</div>
-                            <div>👍</div>
-                            <p>Recomiendan</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-    </main>
-
-    <footer>
-        <div>
-            <div class="info_footer">
-                <img src="Imagenes/logo white-bakcground.jpg" class="img_footer">
-                <div class="texto_footer">
-                    <h4 class="titulo-footer">Portal Turístico - Tu Pueblo</h4>
-                    <p class="texto-footer">Toda la información que necesitas en un solo lugar</p>
-                </div>
-                <!--                 <div>
-                    <p>&copy;guayamba</p>
-                    <p>proyecto realizado por</p>
-                </div> -->
-            </div>
-        </div>
-    </footer>
-</body>
-
-</html>
+* {
+    padding: 4px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* paleta de colores
+'big-stone': {
+    '50': '#f5f7fa',
+    '100': '#eaeef4',
+    '200': '#d0dbe7',
+    '300': '#a6bcd3',
+    '400': '#7799b9',
+    '500': '#557ca2',
+    '600': '#426287',
+    '700': '#37506d',
+    '800': '#30455c',
+    '900': '#2c3c4e',
+    '950': '#1f2937',
+}, */
+body {
+    background-color: #1f2937;
+}
+
+header {
+    background-image: url(Imagenes/Plaza-complejo-rio-guayamba/foto\ complejo\ desde\ la\ pasarela.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 8px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.logo-titulo-subitulo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tituloh1 {
+    font-size: 2.4rem;
+    font-style: oblique;
+    color: white;
+}
+
+.subtituloh1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.logo-header {
+    height: 120px;
+    border-radius: 50%;
+}
+
+/* Estilos sección presentacion y mapas descargables*/
+.presentacion {
+    background-color: #2c3c4e;
+    border-radius: 6px;
+    padding: 0.6rem;
+}
+
+.mapa_descargable {
+    background-color: #d0dbe7;
+    color: #1f2937;
+    border: solid 2px black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 0.6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mapa-guayamba {
+    border: solid 2px #7799b9;
+    border-radius: 6px;
+    margin-top: 1.1rem;
+    background-image: url(Imagenes/Plaza-complejo-rio-guayamba/Río\ Guayamba\,\ vista\ desde\ la\ pasarela\ hacia\ el\ río.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.pdf-mapa {
+    margin: 1rem;
+}
+
+.pdf-mapa h3 {
+    margin-bottom: 1rem;
+}
+
+.referencia-mapa {
+    background-color: #7799b9;
+    border-radius: 6px;
+}
+
+.texto-referencia-mapa p {
+    background-color: #7799b9;
+    border-radius: 6px;
+    color: #1f2937;
+    margin: 0.8rem;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.9rem;
+
+}
+
+.texto-referencia-mapa p {
+    margin: 6px;
+}
+
+.titulo-mapa {
+    color: black;
+    background-color: #7799b9;
+    font-size: 1.4rem;
+    border-radius: 6px;
+}
+
+.parrafo-qr,
+.titulo-qr {
+    font-size: 18px;
+    font-weight: bold;
+    /* color: #d0dbe7; */
+    background-color: #7799b9;
+    color: black;
+    border-radius: 6px;
+    display: inline-block;
+    width: 55%;
+}
+
+
+a:hover {
+    background-color: #1f2937;
+    color: #d0dbe7;
+    border: solid 2px #d0dbe7;
+    cursor: pointer;
+    box-shadow: 4px 4px 3px #7799b9;
+    transition: background-color ease-out 0.3s, color ease-out 0.3s, border ease-out 0.3s;
+}
+
+.presentacion-titulo-y-subtitulo {
+    text-align: center;
+    color: white;
+    /* background-image: url(Imagenes/Plaza-complejo-rio-guayamba/Río\ Guayamba\,\ vista\ desde\ la\ pasarela\ hacia\ el\ río.jpg); */
+    background-size: cover;
+}
+
+/* .descripcion-titulo{
+    color: black;
+} */
+.presentacion-titulo-y-subtitulo h3 {
+    color: white;
+}
+
+.presentacion-titulo {
+    padding: 1rem;
+    /* color: black; */
+}
+
+/* qr y mapa descargable*/
+.qr-mapas-descargable {
+    text-align: center;
+}
+
+/* Estilo zonas de interés: divs, img, titulos, subtitulos.*/
+.zonas-de-interes {
+    background-color: #2c3c4e;
+    border-radius: 6px;
+}
+
+.division-de-zonas div {
+    background-color: #36454F;
+    /* border: solid 2px black; */
+    border-radius: 6 px;
+    margin: 6px;
+}
+
+.referencia {
+    background-color: white;
+    /* border: solid 2px black; */
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.turismo-info-productos-historia {
+    background-color: #2c3c4e;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.turismo-info-productos-historia h3 {
+    color: #d0dbe7;
+    padding: 6px;
+}
+
+.img-referencia {
+    max-width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.texto-referencia {
+    color: #d0dbe7;
+    font-style: italic;
+    font-size: 1.33rem;
+    text-align: center;
+    /* text-decoration: underline; */
+}
+
+.titulo-referencia {
+    background-color: #d0dbe7;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.actividades-servicios {
+    background-color: #37506d;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+
+.titulo-servicio {
+    background-color: #7799b9;
+    border-radius: 6px;
+    border: solid 2px black;
+}
+
+/* accesos rapidos */
+.presentacion-accesos-rapidos {
+    background-color: #7799b9;
+    border: solid 2px black;
+    border-radius: 6px;
+}
+
+.numeros-servicios {
+    text-align: center;
+    background-color: #2c3c4e;
+    border-radius: 6px;
+    padding: 0.8rem;
+}
+
+.servicios-prioritarios {
+    background-color: #37506d;
+    border: solid 2px black;
+    margin: 0.6rem;
+    border-radius: 6px;
+    padding: 0.8rem;
+}
+
+.tipo-de-servicio {
+    background-color: #7799b9;
+    border-radius: 6px;
+    border: solid 2px black;
+}
+
+.tipo-de-servicio p h5 {
+    margin: 1rem;
+}
+
+.tipo-de-servicio p {
+    color: #d0dbe7;
+}
+
+/* estilo para el footer
+ */
+footer {
+    background-color: #2c3c4e;
+    /* border-radius: 6px; */
+    color: black;
+    display: flex;
+    background-image: url(Imagenes/img-zonas-turisticas/La\ olla.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.img_footer {
+    height: 100px;
+    border-radius: 50%;
+}
+
+@media screen and (min-width:700px) {
+    header {
+        height: 350px;
+        background-position: center;
+        background-size: none;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .presentacion-titulo {
+        font-size: 1.8rem;
+    }
+
+    .descripcion-titulo {
+        font-size: 1.5rem;
+    }
+
+    #seccion-principal {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .referencia-mapa {
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .titulo-referencia {
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+        border-radius: 6px;
+        padding-top: 8px;
+    }
+
+    /*  .referencia-imagen-texto{
+        display: flex;
+        flex-wrap:wrap;
+    } */
+    .texto-referencia {
+        padding: 10px;
+    }
+
+    /* Estilo zonas de interés */
+    .referencia {
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .contenedor-de-descripcion {
+
+        flex: 1 1 250px;
+    }
+
+    .img-referencia {
+        min-width: 250px;
+    }
+
+    /* Estilo contenedor numeros telefónicos */
+
+    .presentacion-accesos-rapidos {
+        margin: 0 auto;
+        width: 96%;
+    }
+
+    .contenedor-servicios-prioritarios {
+        display: flex;
+    }
+
+    .servicios-prioritarios {
+        flex-grow: 1;
+    }
+
+    .tipo-de-servicio {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .servicios-prioritarios h5 {
+        font-size: 16px;
+    }
+
+    /* estios footer */
+    .titulo-footer {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .texto-footer {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    header {
+        width: 100%;
+
+    }
+        .division-de-zonas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .contenedor-referencia-de-zonas {
+        flex: basis 48%;
+        margin-bottom: 20px;
+        flex-grow: 0;
+    }
+    .referencia{
+        display: flex;
+    }
+    .contenedor-de-descripcion{
+        flex-direction:column ;
+    }
+}
